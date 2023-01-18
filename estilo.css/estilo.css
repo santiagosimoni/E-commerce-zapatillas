@@ -93,10 +93,12 @@ a:visited {color: black; font-family: arial; text-decoration: none;}
 }
 .titulo2 h2{
     font-size: 3.5rem;
-    font-family: 'Caveat', cursive;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Rowdies', cursive;
+    color: rgb(0, 0, 0);
     text-align: center;
-    width: 100%;
+    width: 80%;
+    text-transform: uppercase;
 }
 
 .contenido-Principal {
@@ -156,8 +158,8 @@ transition: all 0.4s ease;
     width: 80%;
     margin: 0 10%;
     max-height: 88vh;
-    color: rgb(255, 255, 255);
-    background-color: #4c4b4b;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -174,10 +176,11 @@ transition: all 0.4s ease;
   .headerCarrito {
     display: flex;
     justify-content: space-around;
-    background-color: #000000;
-    color: #fff;
+    background-color: #a97878;
+    color: #ffffff;
     width: 100%;
     padding: 1rem;
+    font-family: 'Rowdies', cursive;
   }
   
   .botonX{
@@ -199,7 +202,8 @@ transition: all 0.4s ease;
   }
   
   .total-content {
-    background-color: rgb(255, 0, 0);
+    background-color: #a97878;
+    color: rgb(255, 255, 255);
     width: 100%;
     font-size: 25px;
     padding: 5px;
@@ -214,7 +218,7 @@ transition: all 0.4s ease;
     justify-content: center;
     align-items: center;
     width: 50%;
-    background-color: #4c4b4b;
+    background-color: #a97878;
     color: rgb(255, 255, 255);
     border-radius: 10px;
     cursor: pointer;
@@ -235,47 +239,4 @@ footer{
 .redes a img:hover{
     transform:translateY(10px);
     transition: 0.5s;
-}
-.containerLogin{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../imagenes/pexels-felix-mittermeier-956999.jpg);
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-}
-.formularioLogin{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    height: 25rem;
-    width: 28rem;
-    border-radius: 20px;
-    gap: 15px;
-    text-align: center;
-}
-.formularioInput{
-    width: 80%;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    border-style: double;
-}
-.botonLogin{
-    width: 80%;
-    margin-top: 2rem;
-    height: 3rem;
-    background-color: rgb(0, 38, 255);
-    color: white;
-    cursor: pointer;
-    border-radius: 15px;
-}
-.botonLogin:hover{
-    transform: scale(1.1);
-    transition: all 0.5s ease;
 }

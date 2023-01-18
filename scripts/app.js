@@ -99,7 +99,9 @@ botonCarrito.addEventListener("click", () =>{
     eliminar.innerText="❌"
     eliminar.className="botonEliminar"
     contenidoCarrito.append(eliminar)
-    eliminar.addEventListener("click", eliminarProd)
+    eliminar.addEventListener("click", ()=>{
+      eliminarProd(prod.id)
+    })
   })
 
 
@@ -129,8 +131,8 @@ verCarrito.addEventListener("click", pintarCarrito)
 
 
 
-function eliminarProd(){
-  const foundId = carrito.find((e) => e.id )
+function eliminarProd(id){
+  const foundId = carrito.find((e) => e.id === id)
 
   carrito = carrito.filter((carritoId) => {
     return carritoId !== foundId
