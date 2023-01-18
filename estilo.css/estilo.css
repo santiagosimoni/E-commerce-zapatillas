@@ -1,0 +1,281 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    outline: none !important;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+textarea:focus, input:focus {outline: none !important;}
+a {color: black; font-family: arial; text-decoration: none;}
+a:hover {color: black; font-family: arial; text-decoration: none;}
+a:visited {color: black; font-family: arial; text-decoration: none;}
+.titulo{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    box-shadow: -1px 14px 23px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 14px 23px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 14px 23px -7px rgba(0,0,0,0.75);
+}
+.titulo img{
+  width: 15rem;
+  height: 15rem;
+}
+.titulo .tituloNombre{
+  font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    font-family: 'Alfa Slab One', cursive; 
+    flex-direction: column;
+    text-align: center;
+}
+.titulo .tituloPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.titulo .tituloPrincipal h2{
+  margin: 1rem;
+}
+.titulo .tituloNombre h3{
+  color: #a97878;
+  font-size: 3rem;
+}
+.cart{
+  display: flex;
+  justify-content: flex-end;
+  margin: 5rem;
+  align-items: center;
+}
+.fa-solid{
+  cursor: pointer;
+  font-size: 2rem;
+  height: 2rem;
+  color: rgb(0, 0, 0);
+}
+.cart p{
+    height: 20px;
+    width: 20px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+.imagenFondo{
+    background-image: url(../imagenes/NANOFLEX-TR-1-1960x925.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    margin-bottom: 2rem;
+}
+.imagenFondo:hover{
+    opacity: 1;
+    transition: 0.3s;
+}
+.titulo2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo2 h2{
+    font-size: 3.5rem;
+    font-family: 'Caveat', cursive;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.contenido-Principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    height: 30rem;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 15px;
+    margin: 15px;
+    margin-bottom: 3rem;
+  }
+  .card:hover{
+    box-shadow: 0px 6px 12px 6px rgba(41,40,40,0.75);
+-webkit-box-shadow: 0px 6px 12px 6px rgba(41,40,40,0.75);
+-moz-box-shadow: 0px 6px 12px 6px rgba(41,40,40,0.75);
+transform: scale(1.05);
+transition: all 0.4s ease;
+
+  }
+  
+  .card > img {
+    height: 250px;
+  }
+  
+  .price {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    width: 15rem;
+    height: 3rem;
+    background-color: rgb(2, 150, 29);
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+  }
+  
+  .card button {
+    border-radius: 10px;
+    width: 12rem;
+    height: 2.4rem;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .containerCarrito{
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: rgb(255, 255, 255);
+    background-color: #4c4b4b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+  }
+  
+  .containerCarrito::-webkit-scrollbar {
+    display: none;
+  }
+  .headerCarrito {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    color: #fff;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .botonX{
+    cursor: pointer;
+  }
+  
+  .containerCarrito .contenidoCarrito {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .containerCarrito div img {
+    height: 120px;
+    width: 120px;
+  }
+  
+  .total-content {
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .botonEliminar{
+    cursor: pointer;
+  }
+  .botonFinalizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #4c4b4b;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58, 58, 250);
+}
+.redes a img{
+    width: 1.5rem;
+    margin: 1rem;
+}
+.redes a img:hover{
+    transform:translateY(10px);
+    transition: 0.5s;
+}
+.containerLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/pexels-felix-mittermeier-956999.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.formularioLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 25rem;
+    width: 28rem;
+    border-radius: 20px;
+    gap: 15px;
+    text-align: center;
+}
+.formularioInput{
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-style: double;
+}
+.botonLogin{
+    width: 80%;
+    margin-top: 2rem;
+    height: 3rem;
+    background-color: rgb(0, 38, 255);
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.botonLogin:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}

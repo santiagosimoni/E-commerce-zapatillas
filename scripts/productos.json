@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "img": "../imagenes/161052-800-800.jpg",
+      "nombre": "Zapatilla  1",
+      "desc":"Zapatilla 1",
+      "precio": 2000,
+      "cantidad": 1 
+    },
+    {
+        "id": 2,
+        "img": "../imagenes/Reebok3.webp",
+        "nombre": "Zapatilla  2",
+        "desc":"Zapatilla 2",
+        "precio": 700,
+        "cantidad":1
+    },
+    {
+        "id": 3,
+        "img": "../imagenes/Reebok4.webp",
+        "nombre": "Zapatilla  3",
+        "desc":"Zapatilla 3",
+        "precio": 1750,
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "img": "../imagenes/zapatillas-reebok-royal-techque-t-ce-azul-111010fx0728001-1.jpg",
+        "nombre": "Zapatilla  4",
+        "desc":"Zapatilla 4",
+        "precio": 2700,
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "img": "../imagenes/zapatillas-running-nike-air-zoom-pegasus-39-gris-510010dh4071003-1.jpg",
+        "nombre": "Zapatilla  5",
+        "desc":"Zapatilla 5",
+        "precio":  2100,
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "img": "../imagenes/eee23975d21e47fea05dad75010d3650_9366.webp",
+        "nombre": "Zapatilla  6",
+        "desc":"Zapatilla 6",
+        "precio":  1000,
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "img": "../imagenes/FY7757_0.jpg",
+        "nombre": "Zapatilla 7",
+        "desc":"Zapatilla 7",
+        "precio":  3500,
+        "cantidad": 1
+    },    
+    {
+        "id": 8,
+        "img": "../imagenes/59260.jpg",
+        "nombre": "Zapatilla  8",
+        "desc":"Zapatilla 8",
+        "precio":  5000,
+        "cantidad": 1
+    }
+]
