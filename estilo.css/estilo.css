@@ -62,40 +62,18 @@ a:visited {color: black; font-family: arial; text-decoration: none;}
     justify-content: center;
     color: rgb(0, 0, 0);
 }
-.barra{
-  background-color: rgb(95, 95, 95);
-  width: 100%;
-  height: 3rem;
-  margin-bottom: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.3rem;
-  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
-}
-nav ul li{
-  display: inline-block;
-  margin: 3rem;
-  text-decoration:none;
-}
-nav ul li:hover{
-  color: black;
-  padding: 0.4rem;
-  border: 1px solid black;
-  border-radius: 10px;
-  transition: 0.3s;
-}
 .imagenFondo{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
     background-image: url(../imagenes/NANOFLEX-TR-1-1960x925.jpg);
     background-size: cover;
+    background-position: center;
     opacity: 0.8;
+    z-index: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30rem;
-    margin-bottom: 5rem;
 }
 .imagenFondo:hover{
     opacity: 1;
@@ -106,6 +84,7 @@ nav ul li:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .titulo2 h2{
     font-size: 3.5rem;
@@ -115,6 +94,7 @@ nav ul li:hover{
     text-align: center;
     width: 80%;
     text-transform: uppercase;
+    z-index: 20;
 }
 
 .contenido-Principal {
@@ -283,6 +263,7 @@ transition: all 0.4s ease;
   } 
 footer{
     display: flex;
+    margin-top: 5rem;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -295,4 +276,19 @@ footer{
 .redes a img:hover{
     transform:translateY(10px);
     transition: 0.5s;
+}
+
+@media (max-width:600px) {
+  .titulo{
+    display: flex;
+    align-items: center;
+  }
+  .titulo img{
+    width: 10rem;
+    height: 10rem;
+  }
+  .titulo .tituloNombre{
+    display: none;
+  }
+
 }

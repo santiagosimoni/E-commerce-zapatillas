@@ -9,7 +9,7 @@ let carrito= JSON.parse(localStorage.getItem("carrito")) || []
 const funcionAsync= async ()  =>{
 const res = await fetch("scripts/productos.json")
 const data = await res.json()
-    data.forEach((prod)=>{
+    data.map((prod)=>{
         let content = document.createElement("div");
       content.className = "card";
       content.innerHTML += `
@@ -83,7 +83,7 @@ botonCarrito.addEventListener("click", () =>{
   headerCarrito.append(botonCarrito)
   
 
-  carrito.forEach((prod)=>{
+  carrito.map((prod)=>{
     const contenidoCarrito=document.createElement("div")
     contenidoCarrito.className= "contenidoCarrito"
     contenidoCarrito.innerHTML=`
