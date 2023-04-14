@@ -105,7 +105,6 @@ a:visited {color: black; font-family: arial; text-decoration: none;}
   }
   .card {
     height: 30rem;
-    margin: auto;
     text-align: center;
     font-family: arial;
     border: 1px solid rgb(75, 75, 75);
@@ -290,5 +289,10 @@ footer{
   .titulo .tituloNombre{
     display: none;
   }
-
+  .titulo2 h2{
+    font-size: 3rem;
+  }
+  .card{
+    margin: 10px;
+  }
 }
